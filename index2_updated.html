@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+
+  <meta charset="UTF-8">
+
+  <!-- Κάνει τη σελίδα σωστή σε κινητά -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✏️ ΑΛΛΑΞΕ ΤΟΝ ΤΙΤΛΟ ΑΝ ΘΕΛΕΙΣ -->
+  <title>Κατερίνα & Βαγγέλης | 11.09.2027</title>
+
+  <meta
+    name="description"
+    content="Το προσκλητήριο γάμου της Κατερίνας και του Βαγγέλη"
+  >
+
+  <!-- Γραμματοσειρές -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+<style>
+
+/* =========================================================
+   ΒΑΣΙΚΕΣ ΡΥΘΜΙΣΕΙΣ
+========================================================= */
+
+:root {
+
+  /* ✏️ Εδώ μπορείς να αλλάξεις τα χρώματα του γάμου */
+
+  --black: #111111;
+  --dark: #191919;
+
+  --cream: #f4f0e8;
+  --cream-dark: #e9e2d6;
+
+  --white: #fffdf9;
+
+  --gold: #b79a68;
+
+  --gray: #77736c;
+
+  --line: rgba(183,154,104,.35);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+
+  background: var(--cream);
+
+  color: var(--black);
+
+  font-family: "Montserrat", sans-serif;
+
+  line-height: 1.7;
+
+}
+
+
+img {
+
+  max-width: 100%;
+
+  display: block;
+
+}
+
+
+a {
+
+  color: inherit;
+
+  text-decoration: none;
+
+}
+
+
+.container {
+
+  width: min(1100px, 90%);
+
+  margin: auto;
+
+}
+
+
+section {
+
+  padding: 100px 0;
+
+}
+
+
+.eyebrow {
+
+  font-size: 10px;
+
+  letter-spacing: 4px;
+
+  text-transform: uppercase;
+
+  color: var(--gold);
+
+  font-weight: 600;
+
+  margin-bottom: 15px;
+
+}
+
+
+h2 {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: clamp(48px, 8vw, 80px);
+
+  font-weight: 400;
+
+  line-height: .95;
+
+}
+
+
+.gold-line {
+
+  width: 55px;
+
+  height: 1px;
+
+  background: var(--gold);
+
+  margin: 25px auto;
+
+}
+
+
+.btn {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 14px 24px;
+
+  border: 1px solid var(--gold);
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  transition: .3s;
+
+}
+
+
+.btn:hover {
+
+  background: var(--gold);
+
+  color: white;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+  min-height: 100vh;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  color: white;
+
+  overflow: hidden;
+
+
+  /*
+    ✏️ ΑΝ ΘΕΣ ΔΙΚΗ ΣΑΣ ΦΩΤΟΓΡΑΦΙΑ:
+
+    Βάλε μια φωτογραφία στον ίδιο φάκελο
+    με όνομα:
+
+    hero.jpg
+
+    και άλλαξε το background παρακάτω.
+  */
+
+  background:
+
+    linear-gradient(
+      rgba(0,0,0,.55),
+      rgba(0,0,0,.65)
+    ),
+
+    radial-gradient(
+      circle,
+      #4c4943,
+      #111
+    );
+
+}
+
+
+/*
+  ✏️ ΟΤΑΝ ΒΑΛΕΙΣ ΦΩΤΟΓΡΑΦΙΑ:
+
+  background:
+  linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.65)),
+  url("hero.jpg") center/cover;
+*/
+
+
+.hero-border {
+
+  position: absolute;
+
+  inset: 20px;
+
+  border: 1px solid rgba(255,255,255,.25);
+
+}
+
+
+.hero-content {
+
+  position: relative;
+
+  z-index: 2;
+
+  width: min(900px,90%);
+
+}
+
+
+.hero-small {
+
+  font-size: 11px;
+
+  letter-spacing: 5px;
+
+  text-transform: uppercase;
+
+  color: #d4bb8a;
+
+}
+
+
+.names {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: clamp(70px,13vw,150px);
+
+  line-height: .82;
+
+  font-weight: 400;
+
+  margin: 30px 0;
+
+}
+
+
+.names span {
+
+  color: var(--gold);
+
+  font-size: .45em;
+
+  display: block;
+
+  margin: 12px 0;
+
+}
+
+
+.date {
+
+  font-size: 12px;
+
+  letter-spacing: 7px;
+
+  text-transform: uppercase;
+
+}
+
+
+.hero-text {
+
+  max-width: 500px;
+
+  margin: 30px auto 0;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 25px;
+
+  font-style: italic;
+
+  color: #ddd8ce;
+
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.intro {
+
+  background: var(--white);
+
+  text-align: center;
+
+}
+
+
+.intro-text {
+
+  max-width: 750px;
+
+  margin: auto;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: clamp(27px,4vw,40px);
+
+  line-height: 1.3;
+
+}
+
+
+/* =========================================================
+   STORY
+========================================================= */
+
+.story {
+
+  background: var(--cream);
+
+}
+
+
+.couple-photos {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 22px;
+
+  margin-top: 45px;
+
+}
+
+
+.couple-photo {
+
+  aspect-ratio: 4 / 5;
+
+  background:
+    linear-gradient(135deg, rgba(0,0,0,.08), rgba(0,0,0,.25)),
+    radial-gradient(circle, #aaa49a, #3c3a37);
+
+  border: 1px solid var(--line);
+
+}
+
+
+/* Αντικαταστήστε τα δύο placeholders με τις φωτογραφίες σας:
+   <img class="couple-photo" src="couple1.jpg" alt="Κατερίνα και Βαγγέλης">
+*/
+
+/* =========================================================
+   ΟΙΚΟΓΕΝΕΙΕΣ
+========================================================= */
+
+.families {
+
+  background: var(--white);
+
+  text-align: center;
+
+}
+
+
+.family-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  gap: 25px;
+
+  margin-top: 55px;
+
+}
+
+
+.family-card {
+
+  padding: 45px 25px;
+
+  border: 1px solid var(--line);
+
+}
+
+
+.family-card h3 {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 35px;
+
+  font-weight: 500;
+
+  margin-bottom: 20px;
+
+}
+
+
+.family-card p {
+
+  color: var(--gray);
+
+}
+
+
+.parents-title {
+
+  color: var(--gold);
+
+  font-size: 10px;
+
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+
+}
+
+
+/* =========================================================
+   ΚΟΥΜΠΑΡΟΣ
+========================================================= */
+
+.koumbaros {
+
+  background: var(--black);
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+.koumbaros-box {
+
+  max-width: 600px;
+
+  margin: 45px auto 0;
+
+  padding: 50px 25px;
+
+  border: 1px solid rgba(183,154,104,.4);
+
+}
+
+
+.koumbaros-name {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 50px;
+
+  color: var(--gold);
+
+}
+
+
+/* =========================================================
+   COUNTDOWN
+========================================================= */
+
+.countdown-section {
+
+  background: var(--dark);
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+.countdown {
+
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  max-width: 750px;
+
+  margin: 50px auto 0;
+
+  border-top: 1px solid rgba(255,255,255,.15);
+
+  border-bottom: 1px solid rgba(255,255,255,.15);
+
+}
+
+
+.count {
+
+  padding: 25px 10px;
+
+}
+
+
+.count-number {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 60px;
+
+  color: var(--gold);
+
+  line-height: 1;
+
+}
+
+
+.count-label {
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  color: #aaa;
+
+}
+
+
+/* =========================================================
+   ΠΡΟΓΡΑΜΜΑ
+========================================================= */
+
+.schedule {
+
+  background: var(--cream);
+
+  text-align: center;
+
+}
+
+
+.timeline {
+
+  max-width: 750px;
+
+  margin: 60px auto 0;
+
+}
+
+
+.timeline-item {
+
+  display: grid;
+
+  grid-template-columns: 120px 1fr;
+
+  text-align: left;
+
+  border-bottom: 1px solid #ddd5c8;
+
+  padding: 25px 0;
+
+}
+
+
+.timeline-time {
+
+  color: var(--gold);
+
+  font-weight: 600;
+
+}
+
+
+.timeline-title {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 27px;
+
+}
+
+
+/* =========================================================
+   LOCATIONS
+========================================================= */
+
+.locations {
+
+  background: var(--white);
+
+  text-align: center;
+
+}
+
+
+.location-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2,1fr);
+
+  gap: 25px;
+
+  margin-top: 55px;
+
+}
+
+
+.location {
+
+  padding: 50px 25px;
+
+  background: var(--cream);
+
+}
+
+
+.location h3 {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 38px;
+
+  font-weight: 400;
+
+}
+
+
+.location p {
+
+  color: var(--gray);
+
+  margin: 15px 0 25px;
+
+}
+
+
+/* =========================================================
+   DRESS CODE
+========================================================= */
+
+.dress {
+
+  background: var(--cream-dark);
+
+  text-align: center;
+
+}
+
+
+.dress-text {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 30px;
+
+}
+
+
+/* =========================================================
+   Q&A
+========================================================= */
+
+.qa {
+
+  background: var(--white);
+
+}
+
+
+.qa-header {
+
+  text-align: center;
+
+}
+
+
+.questions {
+
+  max-width: 800px;
+
+  margin: 50px auto;
+
+}
+
+
+details {
+
+  border-top: 1px solid #ddd5c8;
+
+  padding: 22px 0;
+
+}
+
+
+details:last-child {
+
+  border-bottom: 1px solid #ddd5c8;
+
+}
+
+
+summary {
+
+  cursor: pointer;
+
+  list-style: none;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 27px;
+
+  padding-right: 30px;
+
+  position: relative;
+
+}
+
+
+summary::-webkit-details-marker {
+
+  display: none;
+
+}
+
+
+summary::after {
+
+  content: "+";
+
+  position: absolute;
+
+  right: 0;
+
+  color: var(--gold);
+
+}
+
+
+details[open] summary::after {
+
+  content: "−";
+
+}
+
+
+.answer {
+
+  margin-top: 15px;
+
+  color: var(--gray);
+
+}
+
+
+/* =========================================================
+   RSVP
+========================================================= */
+
+.rsvp {
+
+  background: var(--black);
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+.rsvp-text {
+
+  max-width: 600px;
+
+  margin: 25px auto 30px;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 29px;
+
+}
+
+
+.rsvp .btn {
+
+  color: white;
+
+}
+
+
+/* =========================================================
+   ΕΥΧΟΛΟΓΙΟ
+========================================================= */
+
+.guestbook {
+
+  background: var(--cream);
+
+  text-align: center;
+
+}
+
+
+.guestbook-box {
+
+  max-width: 700px;
+
+  margin: 40px auto;
+
+  padding: 45px;
+
+  background: var(--white);
+
+  border: 1px solid var(--line);
+
+}
+
+
+.guestbook-box p {
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 27px;
+
+}
+
+
+/* =========================================================
+   ΛΙΣΤΑ ΓΑΜΟΥ
+========================================================= */
+
+.registry {
+
+  background: var(--white);
+
+  text-align: center;
+
+}
+
+
+.registry-box {
+
+  max-width: 650px;
+
+  margin: auto;
+
+  padding: 45px;
+
+  border: 1px solid var(--line);
+
+}
+
+
+.registry-box p {
+
+  color: var(--gray);
+
+  margin: 15px 0 25px;
+
+}
+
+
+/* =========================================================
+   ΦΩΤΟΓΡΑΦΙΕΣ
+========================================================= */
+
+.gallery {
+
+  background: var(--black);
+
+  color: white;
+
+  text-align: center;
+
+}
+
+
+.gallery-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+
+  gap: 8px;
+
+  margin-top: 50px;
+
+}
+
+
+.gallery-placeholder {
+
+  aspect-ratio: 1;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      #383632,
+      #777168
+    );
+
+}
+
+
+/*
+  ✏️ ΑΡΓΟΤΕΡΑ ΜΠΟΡΕΙΣ ΝΑ ΑΝΤΙΚΑΤΑΣΤΗΣΕΙΣ
+  ΤΑ PLACEHOLDERS ΜΕ ΦΩΤΟΓΡΑΦΙΕΣ.
+
+  Π.Χ.
+
+  <img src="photo1.jpg">
+
+*/
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+.contact {
+
+  background: var(--cream);
+
+  text-align: center;
+
+}
+
+
+.phone {
+
+  display: inline-block;
+
+  margin: 20px 0 30px;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 40px;
+
+  color: var(--gold);
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+
+  background: #080808;
+
+  color: #777;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+
+footer strong {
+
+  color: #aaa;
+
+}
+
+
+/* =========================================================
+   FLOATING RSVP BUTTON
+========================================================= */
+
+.floating-rsvp {
+
+  position: fixed;
+
+  right: 20px;
+
+  bottom: 20px;
+
+  z-index: 1000;
+
+  background: var(--gold);
+
+  color: white;
+
+  padding: 14px 18px;
+
+  border-radius: 50px;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:700px) {
+
+  section {
+
+    padding: 70px 0;
+
+  }
+
+
+  .hero-border {
+
+    inset: 12px;
+
+  }
+
+
+  .names {
+
+    font-size: 68px;
+
+  }
+
+
+  .names span {
+
+    margin: 15px 0;
+
+  }
+
+
+  .couple-photos {
+
+    gap: 12px;
+
+  }
+
+
+  .family-grid,
+
+  .location-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+  .countdown {
+
+    grid-template-columns: repeat(2,1fr);
+
+  }
+
+
+  .count-number {
+
+    font-size: 45px;
+
+  }
+
+
+  .timeline-item {
+
+    grid-template-columns: 85px 1fr;
+
+  }
+
+
+  .gallery-grid {
+
+    grid-template-columns: repeat(2,1fr);
+
+  }
+
+
+  .floating-rsvp {
+
+    right: 12px;
+
+    bottom: 12px;
+
+  }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     FLOATING RSVP
+===================================================== -->
+
+<a
+  href="#rsvp"
+  class="floating-rsvp"
+>
+  RSVP
+</a>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<header class="hero">
+
+  <div class="hero-border"></div>
+
+  <div class="hero-content">
+
+    <div class="hero-small">
+      Save the date
+    </div>
+
+
+    <!-- ✏️ ΟΝΟΜΑΤΑ -->
+
+    <div class="names">
+
+      Κατερίνα
+
+      <span>&</span>
+
+      Βαγγέλης
+
+    </div>
+
+
+    <!-- ✏️ ΗΜΕΡΟΜΗΝΙΑ -->
+
+    <div class="date">
+      11 · 09 · 2027
+    </div>
+
+
+    <div class="hero-text">
+
+      «Και κάπως έτσι αποφασίσαμε
+      να περάσουμε τη ζωή μας μαζί.»
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      We are getting married
+    </div>
+
+    <div class="gold-line"></div>
+
+
+    <p class="intro-text">
+
+      Με μεγάλη χαρά σας προσκαλούμε
+      να γιορτάσετε μαζί μας την αρχή
+      του επόμενου κεφαλαίου.
+
+      <br><br>
+
+      Θα έχει αγάπη,
+      φίλους,
+      οικογένεια,
+      χορό
+      και — πιθανότατα —
+      περισσότερο κρασί απ' όσο πρέπει.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     OUR STORY
+===================================================== -->
+
+<section class="story">
+
+  <div class="container">
+
+    <div class="story-content" style="text-align: center;">
+
+      <div class="eyebrow">
+        The couple
+      </div>
+
+      <h2>
+        Το ζευγάρι
+      </h2>
+
+      <div class="gold-line"></div>
+
+      <div class="couple-photos">
+        <!-- Βάλτε εδώ τις δύο φωτογραφίες σας -->
+        <div class="couple-photo" role="img" aria-label="Φωτογραφία της Κατερίνας και του Βαγγέλη"></div>
+        <div class="couple-photo" role="img" aria-label="Φωτογραφία της Κατερίνας και του Βαγγέλη"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FAMILIES
+===================================================== -->
+
+<section class="families">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      With the love of our families
+    </div>
+
+    <h2>
+      Οι οικογένειές μας
+    </h2>
+
+    <div class="gold-line"></div>
+
+
+    <div class="family-grid">
+
+
+      <!-- ΟΙΚΟΓΕΝΕΙΑ ΝΥΦΗΣ -->
+
+      <div class="family-card">
+
+        <div class="parents-title">
+          Οι γονείς της νύφης
+        </div>
+
+        <h3>
+
+          <!-- ✏️ ΒΑΛΕ ΟΝΟΜΑΤΑ -->
+
+          Κωνσταντίνος Λευκαδίτης<br>
+
+          &<br>
+
+          Ιουλία Νάκα
+
+        </h3>
+
+        <p>
+          Με αγάπη και χαρά
+        </p>
+
+      </div>
+
+
+      <!-- ΟΙΚΟΓΕΝΕΙΑ ΓΑΜΠΡΟΥ -->
+
+      <div class="family-card">
+
+        <div class="parents-title">
+          Οι γονείς του γαμπρού
+        </div>
+
+        <h3>
+
+          <!-- ✏️ ΒΑΛΕ ΟΝΟΜΑΤΑ -->
+
+          Αχιλλέας Κατράκης<br>
+
+          &<br>
+
+          Νίκη Σουλιώτη
+
+        </h3>
+
+        <p>
+          Με αγάπη και χαρά
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     KOUMBAROS
+===================================================== -->
+
+<section class="koumbaros">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Since 2000
+    </div>
+
+    <h2>
+      Η κουμπάρα μας
+    </h2>
+
+    <div class="koumbaros-box">
+
+      <div class="parents-title">
+        Κουμπάρα
+      </div>
+
+      <div class="koumbaros-name">
+        Όλγα Νούλα
+      </div>
+
+      <p>
+        Μια φιλία από το 2000, που συνεχίζει να γράφει τις πιο όμορφες ιστορίες.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="koumbaros">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Our people
+    </div>
+
+    <h2>
+      Ο κουμπάρος μας
+    </h2>
+
+
+    <div class="koumbaros-box">
+
+      <div class="parents-title">
+        Κουμπάρος
+      </div>
+
+
+      <div class="koumbaros-name">
+
+        <!-- ✏️ ΟΝΟΜΑ ΚΟΥΜΠΑΡΟΥ -->
+
+        Αποστόλης Παπαχρήστος
+
+      </div>
+
+
+      <!-- ✏️ ΠΡΟΣΘΕΣΕ ΜΙΚΡΟ ΚΕΙΜΕΝΟ -->
+
+      <p>
+
+        Ο άνθρωπος που θα είναι δίπλα μας
+        όταν όλα πάνε σύμφωνα με το σχέδιο.
+
+        <br>
+
+        Και κυρίως όταν δεν πάνε.
+
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     COUNTDOWN
+===================================================== -->
+
+<section class="countdown-section">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      The big day
+    </div>
+
+    <h2>
+      Μετράμε αντίστροφα
+    </h2>
+
+
+    <div class="countdown">
+
+
+      <div class="count">
+
+        <div
+          id="days"
+          class="count-number"
+        >
+          00
+        </div>
+
+        <div class="count-label">
+          Ημέρες
+        </div>
+
+      </div>
+
+
+      <div class="count">
+
+        <div
+          id="hours"
+          class="count-number"
+        >
+          00
+        </div>
+
+        <div class="count-label">
+          Ώρες
+        </div>
+
+      </div>
+
+
+      <div class="count">
+
+        <div
+          id="minutes"
+          class="count-number"
+        >
+          00
+        </div>
+
+        <div class="count-label">
+          Λεπτά
+        </div>
+
+      </div>
+
+
+      <div class="count">
+
+        <div
+          id="seconds"
+          class="count-number"
+        >
+          00
+        </div>
+
+        <div class="count-label">
+          Δευτερόλεπτα
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     LOCATIONS
+===================================================== -->
+
+<section class="locations">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Where
+    </div>
+
+    <h2>
+      Πού θα είμαστε
+    </h2>
+
+    <div class="gold-line"></div>
+
+
+    <div class="location-grid">
+
+
+      <!-- ΕΚΚΛΗΣΙΑ -->
+
+      <div class="location">
+
+        <h3>
+          Άγιος Αχίλλειος
+        </h3>
+
+        <p>
+          Ιερός Μητροπολιτικός Ναός
+          Αγίου Αχιλλείου Λάρισας
+        </p>
+
+
+        <a
+          class="btn"
+          href="https://www.google.com/maps/search/?api=1&query=Άγιος+Αχίλλειος+Λάρισα"
+          target="_blank"
+        >
+          📍 Google Maps
+        </a>
+
+      </div>
+
+
+      <!-- ΚΤΗΜΑ -->
+
+      <div class="location">
+
+        <h3>
+          Κτήμα Έλενα
+        </h3>
+
+        <p>
+          Λάρισα
+        </p>
+
+
+        <a
+          class="btn"
+          href="https://www.google.com/maps/search/?api=1&query=Κτήμα+Έλενα+Λάρισα"
+          target="_blank"
+        >
+          📍 Google Maps
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     Q&A
+===================================================== -->
+
+<section class="qa">
+
+  <div class="container">
+
+    <div class="qa-header">
+
+      <div class="eyebrow">
+        You asked
+      </div>
+
+      <h2>
+        Q&A
+      </h2>
+
+      <div class="gold-line"></div>
+
+    </div>
+
+
+    <div class="questions">
+
+
+      <details>
+
+        <summary>
+          Θα έχει παιδιά;
+        </summary>
+
+        <div class="answer">
+
+          Όχι.
+
+          Τα αγαπάμε πολύ,
+          αλλά αυτή τη βραδιά θέλουμε
+          οι γονείς τους να θυμηθούν
+          πώς είναι να βγαίνουν μόνοι τους.
+
+          🥂
+
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Μπορώ να φορέσω λευκό;
+        </summary>
+
+        <div class="answer">
+
+          Καλύτερα όχι.
+
+          Δεν θέλουμε ανταγωνισμό
+          με τη νύφη.
+
+          Και δεν θέλουμε να το λερώσει
+          η κουμπάρα με κρασί.
+
+          🍷
+
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Θα χορέψουμε;
+        </summary>
+
+        <div class="answer">
+
+          Αυτό δεν είναι ερώτηση.
+
+          Είναι υποχρέωση.
+
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Τι ώρα φεύγουμε;
+        </summary>
+
+        <div class="answer">
+
+          Δεν γνωρίζουμε.
+
+          Θα αποφασίσει ο DJ.
+
+          Και το τελευταίο ποτό.
+
+        </div>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Τι δώρο να φέρω;
+        </summary>
+
+        <div class="answer">
+
+          Η παρουσία σας είναι
+          το καλύτερο δώρο.
+
+          ❤️
+
+          <br><br>
+
+          Αν όμως επιμένετε...
+          έχουμε αφήσει χώρο
+          για αυτή την περίπτωση παρακάτω.
+
+        </div>
+
+      </details>
+
+
+      <!-- ✏️ ΜΠΟΡΕΙΣ ΝΑ ΠΡΟΣΘΕΣΕΙΣ ΚΑΙ ΑΛΛΑ -->
+
+      <details>
+
+        <summary>
+          Ποιος θα κλάψει πρώτος;
+        </summary>
+
+        <div class="answer">
+
+          Δεν θα αποκαλύψουμε ονόματα.
+
+          Αλλά έχουμε ήδη στοιχηματίσει.
+
+        </div>
+
+      </details>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     RSVP
+===================================================== -->
+
+<section
+  class="rsvp"
+  id="rsvp"
+>
+
+  <div class="container">
+
+    <div class="eyebrow">
+      RSVP
+    </div>
+
+    <h2>
+      Θα είσαι εκεί;
+    </h2>
+
+
+    <div class="gold-line"></div>
+
+
+    <p class="rsvp-text">
+
+      Πες μας αν θα έρθεις
+      να γιορτάσουμε μαζί.
+
+      <br>
+
+      Για να ξέρουμε πόσα ποτήρια
+      να βάλουμε.
+
+    </p>
+
+
+    <!-- =================================================
+         ✏️ ΕΔΩ ΘΑ ΒΑΛΕΙΣ ΤΟ GOOGLE FORM
+
+         Παράδειγμα:
+
+         href="https://forms.gle/xxxxxxxx"
+
+    ================================================== -->
+
+
+    <a
+      class="btn"
+      href="YOUR_GOOGLE_FORM_LINK_HERE"
+      target="_blank"
+    >
+
+      ✓ Δήλωσε παρουσία
+
+    </a>
+
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     GUESTBOOK
+===================================================== -->
+
+<section class="guestbook">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Leave us a message
+    </div>
+
+    <h2>
+      Ευχολόγιο
+    </h2>
+
+
+    <div class="gold-line"></div>
+
+
+    <div class="guestbook-box">
+
+      <p>
+
+        «Γράψε μας μια ευχή,
+        μια ανάμνηση,
+        μια συμβουλή
+        ή κάτι που δεν πρέπει
+        να μάθει κανείς.»
+
+      </p>
+
+
+      <br>
+
+
+      <!--
+        ✏️ Μπορείς να βάλεις εδώ
+        δεύτερο Google Form μόνο για ευχές.
+      -->
+
+
+      <a
+        class="btn"
+        href="YOUR_GUESTBOOK_FORM_LINK_HERE"
+        target="_blank"
+      >
+
+        ✍️ Γράψε μας μια ευχή
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     IBAN
+===================================================== -->
+
+<section class="registry">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Wedding gift
+    </div>
+
+    <h2>
+      Για όσους επιμένουν...
+    </h2>
+
+    <div class="gold-line"></div>
+
+    <div class="registry-box">
+
+      <p>
+        Η παρουσία σας είναι πραγματικά το μεγαλύτερο δώρο.
+        <br><br>
+        Για όσους επιθυμούν να μας προσφέρουν κάτι ακόμη,
+        μπορούν να το κάνουν μέσω του παρακάτω λογαριασμού.
+      </p>
+
+      <p><strong>IBAN</strong></p>
+      <p>Συμπληρώστε εδώ το IBAN</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact">
+
+  <div class="container">
+
+    <div class="eyebrow">
+      Need anything?
+    </div>
+
+    <h2>
+      Επικοινωνία
+    </h2>
+
+
+    <div class="gold-line"></div>
+
+
+    <p>
+
+      Για απορίες,
+      οδηγίες,
+      RSVP
+      ή οτιδήποτε άλλο:
+
+    </p>
+
+
+    <div class="contact-person">
+      <div class="parents-title">Νύφη</div>
+      <a href="tel:+306949366158" class="phone">6949 366 158</a>
+      <br>
+      <a class="btn" href="tel:+306949366158">📞 Κάλεσε τη νύφη</a>
+    </div>
+
+    <div class="contact-person" style="margin-top: 35px;">
+      <div class="parents-title">Γαμπρός</div>
+      <a href="tel:+306971875246" class="phone">6971 875 246</a>
+      <br>
+      <a class="btn" href="tel:+306971875246">📞 Κάλεσε τον γαμπρό</a>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+  <strong>
+    Κατερίνα & Βαγγέλης
+  </strong>
+
+
+  <br><br>
+
+
+  11 · 09 · 2027
+
+
+  <br><br>
+
+
+  Made with love, music & a little chaos ♡
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+/* =====================================================
+   COUNTDOWN
+
+   ✏️ ΑΝ ΑΛΛΑΞΕΙ Η ΗΜΕΡΟΜΗΝΙΑ,
+   ΑΛΛΑΞΕ ΚΑΙ ΑΥΤΟ.
+
+   Μορφή:
+
+   YYYY-MM-DDTHH:MM:SS
+
+===================================================== */
+
+
+const weddingDate =
+  new Date("2027-09-11T18:30:00").getTime();
+
+
+
+function updateCountdown() {
+
+
+  const now =
+    new Date().getTime();
+
+
+  const distance =
+    weddingDate - now;
+
+
+  if (distance <= 0) {
+
+    document.getElementById("days").textContent = "00";
+
+    document.getElementById("hours").textContent = "00";
+
+    document.getElementById("minutes").textContent = "00";
+
+    document.getElementById("seconds").textContent = "00";
+
+    return;
+
+  }
+
+
+  const days =
+    Math.floor(
+      distance /
+      (1000 * 60 * 60 * 24)
+    );
+
+
+  const hours =
+    Math.floor(
+      (distance %
+      (1000 * 60 * 60 * 24)) /
+      (1000 * 60 * 60)
+    );
+
+
+  const minutes =
+    Math.floor(
+      (distance %
+      (1000 * 60 * 60)) /
+      (1000 * 60)
+    );
+
+
+  const seconds =
+    Math.floor(
+      (distance %
+      (1000 * 60)) /
+      1000
+    );
+
+
+  document.getElementById("days")
+    .textContent =
+    String(days).padStart(2,"0");
+
+
+  document.getElementById("hours")
+    .textContent =
+    String(hours).padStart(2,"0");
+
+
+  document.getElementById("minutes")
+    .textContent =
+    String(minutes).padStart(2,"0");
+
+
+  document.getElementById("seconds")
+    .textContent =
+    String(seconds).padStart(2,"0");
+
+}
+
+
+updateCountdown();
+
+
+setInterval(
+  updateCountdown,
+  1000
+);
+
+
+</script>
+
+
+</body>
+</html>
