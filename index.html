@@ -391,11 +391,9 @@ h2 {
 
 .couple-photo {
 
+  width: 100%;
   aspect-ratio: 4 / 5;
-
-  background:
-    linear-gradient(135deg, rgba(0,0,0,.08), rgba(0,0,0,.25)),
-    radial-gradient(circle, #aaa49a, #3c3a37);
+  object-fit: cover;
 
   border: 1px solid var(--line);
 
@@ -489,11 +487,20 @@ h2 {
 }
 
 
+.koumbaroi-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 25px;
+
+  margin-top: 45px;
+
+}
+
+
 .koumbaros-box {
-
-  max-width: 600px;
-
-  margin: 45px auto 0;
 
   padding: 50px 25px;
 
@@ -1103,6 +1110,8 @@ footer strong {
 
   .family-grid,
 
+  .koumbaroi-grid,
+
   .location-grid {
 
     grid-template-columns: 1fr;
@@ -1232,18 +1241,11 @@ footer strong {
 
     <p class="intro-text">
 
-      Με μεγάλη χαρά σας προσκαλούμε
-      να γιορτάσετε μαζί μας την αρχή
-      του επόμενου κεφαλαίου.
+      Με μεγάλη χαρά σας προσκαλούμε να μοιραστείτε μαζί μας μία από τις πιο όμορφες στιγμές της ζωής μας.
 
       <br><br>
 
-      Θα έχει αγάπη,
-      φίλους,
-      οικογένεια,
-      χορό
-      και — πιθανότατα —
-      περισσότερο κρασί απ' όσο πρέπει.
+      Σας περιμένουμε να γιορτάσουμε αυτή την ξεχωριστή ημέρα, με χαμόγελα, αγκαλιές και στιγμές που θα θυμόμαστε για πάντα.
 
     </p>
 
@@ -1273,9 +1275,19 @@ footer strong {
       <div class="gold-line"></div>
 
       <div class="couple-photos">
-        <!-- Βάλτε εδώ τις δύο φωτογραφίες σας -->
-        <div class="couple-photo" role="img" aria-label="Φωτογραφία της Κατερίνας και του Βαγγέλη"></div>
-        <div class="couple-photo" role="img" aria-label="Φωτογραφία της Κατερίνας και του Βαγγέλη"></div>
+
+        <img
+          class="couple-photo"
+          src="IMG_6449.JPG"
+          alt="Κατερίνα και Βαγγέλης"
+        >
+
+        <img
+          class="couple-photo"
+          src="IMG_6450.JPG"
+          alt="Κατερίνα και Βαγγέλης"
+        >
+
       </div>
 
     </div>
@@ -1327,10 +1339,6 @@ footer strong {
 
         </h3>
 
-        <p>
-          Με αγάπη και χαρά
-        </p>
-
       </div>
 
 
@@ -1354,10 +1362,6 @@ footer strong {
 
         </h3>
 
-        <p>
-          Με αγάπη και χαρά
-        </p>
-
       </div>
 
     </div>
@@ -1368,41 +1372,8 @@ footer strong {
 
 
 <!-- =====================================================
-     KOUMBAROS
+     KOUMPAROI
 ===================================================== -->
-
-<section class="koumbaros">
-
-  <div class="container">
-
-    <div class="eyebrow">
-      Since 2000
-    </div>
-
-    <h2>
-      Η κουμπάρα μας
-    </h2>
-
-    <div class="koumbaros-box">
-
-      <div class="parents-title">
-        Κουμπάρα
-      </div>
-
-      <div class="koumbaros-name">
-        Όλγα Νούλα
-      </div>
-
-      <p>
-        Μια φιλία από το 2000, που συνεχίζει να γράφει τις πιο όμορφες ιστορίες.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
 
 <section class="koumbaros">
 
@@ -1413,38 +1384,42 @@ footer strong {
     </div>
 
     <h2>
-      Ο κουμπάρος μας
+      Οι κουμπάροι μας
     </h2>
 
+    <div class="koumbaroi-grid">
 
-    <div class="koumbaros-box">
+      <div class="koumbaros-box">
 
-      <div class="parents-title">
-        Κουμπάρος
+        <div class="parents-title">
+          Η κουμπάρα μας
+        </div>
+
+        <div class="koumbaros-name">
+          Όλγα Νούλα
+        </div>
+
+        <div class="parents-title">
+          Δίπλα στη νύφη απ το 2000
+        </div>
+
       </div>
 
+      <div class="koumbaros-box">
 
-      <div class="koumbaros-name">
+        <div class="parents-title">
+          Ο κουμπάρος μας
+        </div>
 
-        <!-- ✏️ ΟΝΟΜΑ ΚΟΥΜΠΑΡΟΥ -->
+        <div class="koumbaros-name">
+          Αποστόλης Παπαχρήστος
+        </div>
 
-        Αποστόλης Παπαχρήστος
+        <div class="parents-title">
+          Ο άνθρωπος που μας έφερε κοντά
+        </div>
 
       </div>
-
-
-      <!-- ✏️ ΠΡΟΣΘΕΣΕ ΜΙΚΡΟ ΚΕΙΜΕΝΟ -->
-
-      <p>
-
-        Ο άνθρωπος που θα είναι δίπλα μας
-        όταν όλα πάνε σύμφωνα με το σχέδιο.
-
-        <br>
-
-        Και κυρίως όταν δεν πάνε.
-
-      </p>
 
     </div>
 
@@ -1570,7 +1545,7 @@ footer strong {
       <div class="location">
 
         <h3>
-          Άγιος Αχίλλειος
+          Άγιος Αχίλλιος
         </h3>
 
         <p>
@@ -1581,7 +1556,7 @@ footer strong {
 
         <a
           class="btn"
-          href="https://www.google.com/maps/search/?api=1&query=Άγιος+Αχίλλειος+Λάρισα"
+          href="https://www.google.com/maps/search/?api=1&query=Άγιος+Αχίλλιος+Λάρισα"
           target="_blank"
         >
           📍 Google Maps
@@ -1676,15 +1651,7 @@ footer strong {
 
         <div class="answer">
 
-          Καλύτερα όχι.
-
-          Δεν θέλουμε ανταγωνισμό
-          με τη νύφη.
-
-          Και δεν θέλουμε να το λερώσει
-          η κουμπάρα με κρασί.
-
-          🍷
+          Ας μη γινόμαστε κακοί άνθρωποι.
 
         </div>
 
